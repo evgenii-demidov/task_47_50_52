@@ -28,7 +28,7 @@ void PrintArray2D(double[,] array)   // функция вывода массив
     Console.WriteLine();
 }
 
-int ReadInt(string message)  // функция вывода
+int ReadInt(string message)  // функция ввода
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
