@@ -1,6 +1,6 @@
 ﻿int rows = ReadInt("Введите индекс строки: ");
 int colums = ReadInt("Введите индекс столбца: ");
-int[,] numbers = new int[6, 8];
+int[,] numbers = new int[3, 4];
 FillArray2D(numbers);
 PrintArray2D(numbers);
 
